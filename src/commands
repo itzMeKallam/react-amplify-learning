@@ -1,1 +1,13 @@
+echo "# react-amplify-learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/itzMeKallam/react-amplify-learning.git
+git push -u origin main
+
+git add .
+git commit -m “changes for v2”
+git push origin master
+
 yarn global add aws-amplify/cli
